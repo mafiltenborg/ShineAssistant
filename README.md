@@ -9,7 +9,12 @@ Your way to solar inverter production data without the cloud-stuff!
 Owners of Growatt 1-3000-s solar inverters who want to integrate to Home Assistant or other local monitoring solutions, rather than relying on Growatt's cloud services.
 
 ## Function
-This device extracts loads of runtime data from the growatt inverter and makes it all available in several ways; I'll be focusing on the MQTT-approach.
+This device extracts loads of runtime data from the growatt inverters' modbus-interface and makes it available in several ways; I'll be focusing on the MQTT-approach, but there's also a simple UI, http JSON and a 'Prometheus Scrape Endpoint' to work with as well as some debug data.
+* <http://your-ip> is the UI; Runtime data, setup incl. MQTT and firmware update are here.
+* <http://your-ip/status> holds JSON formatted data.
+* <http://your-ip/metrics> holds the Prometheus formatted data.
+* <http://your-ip/debug> offers connection/state debug info to help you get things going.
+
 
 ## What you get
 Insight into the life of your solar energy solution. What, how much, when and possibly also a little bit of the 'why'. 
