@@ -12,7 +12,15 @@ Insight into the life of your solar energy solution. What, how much, when and po
 Knowledge is power!  So you get power. It's on you to use it wisely.
 
 ## How you get it
-Build the hardware, compile the firmware, print the case and finally setup your data extraction scheme as you see fit.
+### Build the hardware
+This is the place for the hardware. Schematics, BOM and all the usual stuff is there for you to poke at. I use KiCAD, and PCBs can be ordered from the gerbers it produces. <https://jlcpcb.com> will readily produce and send the nicest boards at reasonable prices.
+### Compile the firmware
+Have a look at <https://github.com/mafiltenborg/openinvertergatewaySA> where the fully customized firmware matching the hardware you find here is located. This is not my invention; other smart people have done the heavy lifting, and all I did was tweak and adapt. Still, you'll have to setup camp with PlatformIO and jump through a number of hoops to get at the firmware.
+### Print the case
+I use OpenSCAD. Luckily, it's free for all, so get cracking and produce .stl-files for your own slicer. You'll likely have to tweak things a bit, as all printers are a little unique.
+### And finally
+Setup your data extraction scheme as you see fit.
+
 No, I won't sell you a ready made device. I also won't come around and install it. This is DIY, and for obvious reasons DIY-as-a-Service (DIYaaS) does not exist.
 
 ## How you use it
