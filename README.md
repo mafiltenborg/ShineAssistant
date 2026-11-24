@@ -1,3 +1,7 @@
+<!-- boardrepo-badge:v1 -->
+[![View on BoardRepo](https://boardrepo.com/badge/github.svg?v=2)](https://boardrepo.com/b/6f306820-acc4-4aef-8e22-920ab4c59a56?ref=github-readme)
+<!-- /boardrepo-badge:v1 -->
+
 # ShineAssistant
 Your way to solar inverter production data without the cloud-stuff!
 
